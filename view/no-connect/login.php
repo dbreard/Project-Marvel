@@ -33,6 +33,8 @@
                         <div class="form d-flex align-items-center">
                             <div class="content">
                                 <form id="login-form" method="post" action="<?= HOSTURL ?>" >
+                                    <!-- afin de connaitre l'origine du formulaire -->
+                                    <input type="hidden" name="page" value="login">
                                     <div class="form-group">
                                         <input id="login-username" type="email" name="email" required="" class="input-material">
                                         <label for="login-username" class="label-material">User Name</label>
